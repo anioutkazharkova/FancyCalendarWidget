@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        
+        android:id="@+id/mark"
+        android:top="22dp"
+        android:left="17dp"
+        android:right="17dp"
+        >
+        <shape android:shape="oval" >           
+<size android:width="5dp" android:height="5dp"/>
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+</layer-list>

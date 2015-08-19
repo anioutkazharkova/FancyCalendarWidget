@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_red">#8B0000</color>
+    <color name="dark_brown">#35170c</color>
+    <color name="sepia">#45290c</color>
+    <color name="dark_yellow">#b07d2b</color>
+    <color name="dark_yellow_transparent">#99b07d2b</color>
+    <color name="dark_yellow_background">#4ab07d2b</color>
+    <color name="gray">#c0c0c0</color>
+    <color name="light_gray">#d8d8d8</color>
+    <color name="golden_dark">#b8860b</color>
+    <color name="golden_dark_transp">#99b8860b</color>
+    <color name="orange_red">#a65317</color>
+    <color name="pumpkin">#ff7518</color>
+    <color name="clouds">#ecf0f1</color>
+    
+    <color name="white_background">#4affffff</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="black_background">#4a000000</color>
+    <color name="gray_transparent">#99d8d8d8</color>
+    <color name="black">#000000</color>
+    
+    <!-- Pink theme -->
+    <color name="pink_header">#E91E63</color>
+    <color name="pink_accent">#FF4081</color>
+    <color name="pink_header_divider">#C2185B</color>
+    <color name="light_pink_label">#F8BBD0</color>
+    
+    <!-- Orange theme -->
+    <color name="orange_header">#FF5722</color>
+    <color name="orange_accent">#FF9800</color>
+    <color name="orange_header_divider">#E64A19</color>
+    <color name="light_orange_label">#FFCCBC</color>
+    
+    <!-- Red theme -->
+    <color name="red_header">#F44336</color>
+    <color name="red_accent">#FF5252</color>
+    <color name="red_header_divider">#D32F2F</color>
+    <color name="light_red_label">#FFCDD2</color>
+    
+     <!-- Purple theme -->
+    <color name="purple_header">#9C27B0</color>
+    <color name="purple_accent">#E040FB</color>
+    <color name="purple_header_divider">#7B1FA2</color>
+    <color name="light_purple_label">#E1BEE7</color>
+    
+      <!-- Blue theme -->
+    <color name="blue_header">#3F51B5</color>
+    <color name="blue_accent">#448AFF</color>
+    <color name="blue_header_divider">#303F9F</color>
+    <color name="blue_purple_label">#C5CAE9</color>
+    
+    
+      <!-- Cyan theme -->
+    <color name="cyan_header">#00BCD4</color>
+    <color name="cyan_accent">#009688</color>
+    <color name="cyan_header_divider">#0097A7</color>
+    <color name="light_cyan_label">#B2EBF2</color>
+    
+      <!-- Green theme -->
+    <color name="green_header">#4CAF50</color>
+    <color name="green_accent">#8BC34A</color>
+    <color name="green_header_divider">#388E3C</color>
+    <color name="light_green_label">#C8E6C9</color>
+    
+      <!-- Yellow theme -->
+    <color name="yellow_header">#FFC107</color>
+    <color name="yellow_accent">#FFC107</color>
+    <color name="yellow_header_divider">#FFA000</color>
+    <color name="light_yellow_label">#FFECB3</color>
+    
+      <!-- Gray theme -->
+    <color name="gray_header">#607D8B</color>
+    <color name="gray_accent">#607D8B</color>
+    <color name="gray_header_divider">#455A64</color>
+    <color name="light_gray_label">#CFD8DC</color>
+    
+    <!-- Choco theme -->
+    <color name="choco_header">#795548</color>
+    <color name="choco_accent">#795548</color>
+    <color name="choco_header_divider">#5D4037</color>
+    <color name="light_choco_label">#D7CCC8</color>
+    
+     <!-- Josephine theme -->
+    <color name="josy_header">#607D8B</color>
+    <color name="josy_accent">#FFC107</color>
+    <color name="josy_header_divider">#455A64</color>
+    <color name="light_josy_label">#CFD8DC</color>
+    
+    
+    <!-- Text colors -->
+    <color name="dark">#212121</color>
+    <color name="secondary">#727272</color>
+    <color name="white_primary">#FFFFFF</color>
+    <color name="white_transparent">#90ffffff</color>
+  <color name="light_gray_secondary">#B6B6B6</color>  
+</resources>

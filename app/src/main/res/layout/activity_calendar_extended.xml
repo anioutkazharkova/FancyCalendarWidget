@@ -1,0 +1,1009 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/commonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/btnPrev"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/image_button_states"
+                    android:src="@drawable/ic_action_previous_item" >
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/tvMonthYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btnNext"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/image_button_states"
+                    android:src="@drawable/ic_action_next_item" >
+                </ImageView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/divider"
+                android:layout_width="280dip"
+                android:layout_height="2dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/layoutDays"
+            android:layout_width="280dip"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp" />
+
+        <LinearLayout
+            android:id="@+id/calendarLayout"
+            android:layout_width="280dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="65dp"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                        android:id="@+id/imBack0"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center"
+                        android:src="@drawable/evented_day_background"
+                         >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay0"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack1"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay1"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack2"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay2"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack3"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay3"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack4"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay4"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack5"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay5"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack6"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay6"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack7"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay7"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack8"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay8"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack9"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay9"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack10"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay10"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack11"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay11"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack12"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay12"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack13"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay13"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack14"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay14"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack15"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay15"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack16"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay16"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack17"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay17"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack18"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay18"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack19"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay19"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack20"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay20"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack21"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay21"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack22"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay22"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack23"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay23"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack24"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay24"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack25"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay25"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack26"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay26"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack27"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        
+                        android:id="@+id/imDay27"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack28"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay28"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack29"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay29"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack30"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay30"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack31"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay31"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack32"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay32"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack33"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay33"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack34"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay34"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack35"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay35"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack36"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay36"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack37"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay37"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack38"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay38"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack39"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay39"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack40"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay40"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" >
+
+                    <ImageView
+                         android:src="@drawable/evented_day_background"
+                        android:id="@+id/imBack41"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:scaleType="center" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/imDay41"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/image_button_states"
+                        android:scaleType="center" >
+                    </ImageView>
+                </RelativeLayout>
+            </LinearLayout>
+         
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

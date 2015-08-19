@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res"><file name="calendar_shape" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\calendar_shape.xml" qualifiers="" type="drawable"/><file name="calendar_shape_dark" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\calendar_shape_dark.xml" qualifiers="" type="drawable"/><file name="calendar_shape_white" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\calendar_shape_white.xml" qualifiers="" type="drawable"/><file name="circle_shape" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\circle_shape.xml" qualifiers="" type="drawable"/><file name="day" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\day.jpg" qualifiers="" type="drawable"/><file name="day_background" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\day_background.xml" qualifiers="" type="drawable"/><file name="day_selected" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\day_selected.xml" qualifiers="" type="drawable"/><file name="day_transparent" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\day_transparent.xml" qualifiers="" type="drawable"/><file name="evented_day_background" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\evented_day_background.xml" qualifiers="" type="drawable"/><file name="image_button_states" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\image_button_states.xml" qualifiers="" type="drawable"/><file name="list_divider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\list_divider.xml" qualifiers="" type="drawable"/><file name="mark" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\mark.xml" qualifiers="" type="drawable"/><file name="mark_line" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\mark_line.xml" qualifiers="" type="drawable"/><file name="oval_highlighter" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\oval_highlighter.xml" qualifiers="" type="drawable"/><file name="oval_stroke_highlighter" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\oval_stroke_highlighter.xml" qualifiers="" type="drawable"/><file name="preview" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\preview.png" qualifiers="" type="drawable"/><file name="rect_highlighter" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\rect_highlighter.xml" qualifiers="" type="drawable"/><file name="rect_stroke_highlighter" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\rect_stroke_highlighter.xml" qualifiers="" type="drawable"/><file name="shape_divider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\shape_divider.xml" qualifiers="" type="drawable"/><file name="shape_opacity" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\shape_opacity.xml" qualifiers="" type="drawable"/><file name="shape_select" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable\shape_select.xml" qualifiers="" type="drawable"/><file name="icon" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\icon.png" qualifiers="hdpi" type="drawable"/><file name="ic_action_accept" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_action_accept.png" qualifiers="hdpi" type="drawable"/><file name="ic_action_new_light" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_action_new_light.png" qualifiers="hdpi" type="drawable"/><file name="ic_action_next_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_action_next_item.png" qualifiers="hdpi" type="drawable"/><file name="ic_action_previous_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_action_previous_item.png" qualifiers="hdpi" type="drawable"/><file name="ic_action_settings" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_action_settings.png" qualifiers="hdpi" type="drawable"/><file name="ic_event" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_event.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_menu_back" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_menu_back.png" qualifiers="hdpi" type="drawable"/><file name="ic_menu_forward" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_menu_forward.png" qualifiers="hdpi" type="drawable"/><file name="ic_refresh_white" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-hdpi\ic_refresh_white.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="icon" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\icon.png" qualifiers="xhdpi" type="drawable"/><file name="ic_action_accept" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\ic_action_accept.png" qualifiers="xhdpi" type="drawable"/><file name="ic_action_new_light" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\ic_action_new_light.png" qualifiers="xhdpi" type="drawable"/><file name="ic_action_next_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\ic_action_next_item.png" qualifiers="xhdpi" type="drawable"/><file name="ic_action_previous_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\ic_action_previous_item.png" qualifiers="xhdpi" type="drawable"/><file name="ic_event" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\ic_event.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_refresh_white" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xhdpi\ic_refresh_white.png" qualifiers="xhdpi" type="drawable"/><file name="icon" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\icon.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_action_accept" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\ic_action_accept.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_action_new_light" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\ic_action_new_light.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_action_next_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\ic_action_next_item.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_action_previous_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\ic_action_previous_item.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_event" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\ic_event.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_launcher" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_refresh_white" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\drawable-xxhdpi\ic_refresh_white.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_calendar" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\activity_calendar.xml" qualifiers="" type="layout"/><file name="activity_calendar_extended" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\activity_calendar_extended.xml" qualifiers="" type="layout"/><file name="calend_header_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\calend_header_item.xml" qualifiers="" type="layout"/><file name="calend_row_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\calend_row_item.xml" qualifiers="" type="layout"/><file name="day_item" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\day_item.xml" qualifiers="" type="layout"/><file name="day_item_extended" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\day_item_extended.xml" qualifiers="" type="layout"/><file name="font_type_element" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\font_type_element.xml" qualifiers="" type="layout"/><file name="header_layout" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\header_layout.xml" qualifiers="" type="layout"/><file name="list_calendar" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\list_calendar.xml" qualifiers="" type="layout"/><file name="list_row" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\list_row.xml" qualifiers="" type="layout"/><file name="month_layout" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\month_layout.xml" qualifiers="" type="layout"/><file name="month_layout_extended" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\month_layout_extended.xml" qualifiers="" type="layout"/><file name="preference_theme_layout" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\preference_theme_layout.xml" qualifiers="" type="layout"/><file name="setting_layout" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\setting_layout.xml" qualifiers="" type="layout"/><file name="single_calendar_day" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\single_calendar_day.xml" qualifiers="" type="layout"/><file name="small_header_layout" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\small_header_layout.xml" qualifiers="" type="layout"/><file name="small_initial_layout" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\small_initial_layout.xml" qualifiers="" type="layout"/><file name="theme_element_layout" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout\theme_element_layout.xml" qualifiers="" type="layout"/><file name="list_calendar" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\layout-v17\list_calendar.xml" qualifiers="v17" type="layout"/><file name="calendar" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\menu\calendar.xml" qualifiers="" type="menu"/><file name="save_menu" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\menu\save_menu.xml" qualifiers="" type="menu"/><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values\colors.xml" qualifiers=""><color name="green_accent">#8BC34A</color><color name="gray_header_divider">#455A64</color><color name="dark_brown">#35170c</color><color name="golden_dark">#b8860b</color><color name="light_gray">#d8d8d8</color><color name="blue_header">#3F51B5</color><color name="choco_accent">#795548</color><color name="light_green_label">#C8E6C9</color><color name="dark">#212121</color><color name="orange_header_divider">#E64A19</color><color name="purple_header">#9C27B0</color><color name="light_gray_label">#CFD8DC</color><color name="white_background">#4affffff</color><color name="light_red_label">#FFCDD2</color><color name="josy_accent">#FFC107</color><color name="gray_transparent">#99d8d8d8</color><color name="yellow_header_divider">#FFA000</color><color name="light_cyan_label">#B2EBF2</color><color name="secondary">#727272</color><color name="light_gray_secondary">#B6B6B6</color><color name="red_accent">#FF5252</color><color name="purple_header_divider">#7B1FA2</color><color name="dark_yellow_background">#4ab07d2b</color><color name="light_purple_label">#E1BEE7</color><color name="cyan_accent">#009688</color><color name="clouds">#ecf0f1</color><color name="yellow_accent">#FFC107</color><color name="choco_header_divider">#5D4037</color><color name="white_primary">#FFFFFF</color><color name="black_background">#4a000000</color><color name="dark_yellow_transparent">#99b07d2b</color><color name="pink_header">#E91E63</color><color name="orange_header">#FF5722</color><color name="green_header">#4CAF50</color><color name="gray_accent">#607D8B</color><color name="orange_red">#a65317</color><color name="gray">#c0c0c0</color><color name="blue_purple_label">#C5CAE9</color><color name="golden_dark_transp">#99b8860b</color><color name="pink_header_divider">#C2185B</color><color name="dark_yellow">#b07d2b</color><color name="white">#ffffff</color><color name="choco_header">#795548</color><color name="sepia">#45290c</color><color name="purple_accent">#E040FB</color><color name="josy_header">#607D8B</color><color name="dark_red">#8B0000</color><color name="black">#000000</color><color name="light_yellow_label">#FFECB3</color><color name="red_header_divider">#D32F2F</color><color name="pumpkin">#ff7518</color><color name="orange_accent">#FF9800</color><color name="josy_header_divider">#455A64</color><color name="cyan_header">#00BCD4</color><color name="white_transparent">#90ffffff</color><color name="gray_header">#607D8B</color><color name="light_josy_label">#CFD8DC</color><color name="pink_accent">#FF4081</color><color name="light_choco_label">#D7CCC8</color><color name="cyan_header_divider">#0097A7</color><color name="red_header">#F44336</color><color name="blue_header_divider">#303F9F</color><color name="light_orange_label">#FFCCBC</color><color name="blue_accent">#448AFF</color><color name="light_pink_label">#F8BBD0</color><color name="green_header_divider">#388E3C</color><color name="yellow_header">#FFC107</color></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string-array name="calend_period">
+        <item>this day</item>
+        <item>7 days</item>
+        <item>30 days</item>
+    </string-array><string-array name="days_of_week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array><string name="font">Font</string><string name="background">Theme</string><string name="show_events">Show events for</string><string name="action_settings">Settings</string><string name="app_name">Fancy Calendar widget</string><string name="show_highlighter">Highlight days of week</string><string-array name="monthes">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array><string name="theme_default">Gold</string><string name="font_type">Font type</string><string name="select_theme">Select theme</string><string name="save">save</string><string name="no_events">No events</string><string name="calend_settings">Events</string><string-array name="theme_values">
+        <item>Transparent</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Josephine</item>
+        <item>Contrast</item>
+        <item>Choco</item>
+    </string-array><string name="theme_type">Theme type</string><string-array name="theme_entries">
+        <item>Gold</item>
+        <item>White</item>
+        <item>Dark</item>
+    </string-array><string name="font_example">Abcdef</string></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values-en\strings.xml" qualifiers="en"><string name="hello_world">Hello world!</string><string-array name="monthes">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array><string name="theme_type">Theme type</string><string name="font_example">Abcdef</string><string-array name="calend_period">
+        <item>this day</item>
+        <item>7 days</item>
+        <item>30 days</item>
+    </string-array><string-array name="theme_entries">
+        <item>Gold</item>
+        <item>White</item>
+        <item>Dark</item>
+    </string-array><string name="save">save</string><string name="no_events">No events</string><string-array name="days_of_week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array><string name="background">Theme</string><string name="app_name">Fancy Calendar widget</string><string name="font_type">Font type</string><string name="select_theme">Select theme</string><string name="action_settings">Settings</string><string name="calend_settings">Events</string><string name="theme_default">Gold</string><string name="show_highlighter">Highlight days of week</string><string name="show_events">Show events for</string><string-array name="theme_values">
+        <item>Transparent</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Josephine</item>
+        <item>Contrast</item>
+        <item>Choco</item>
+    </string-array><string name="font">Font</string></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values-ru\strings.xml" qualifiers="ru"><string-array name="monthes">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array><string name="hello_world">Hello world!</string><string name="save">Сохранить</string><string name="background">Настройки темы</string><string name="font_type">Шрифт</string><string name="select_theme">Выберите тему</string><string name="show_events">Показывать события</string><string name="no_events">Нет событий</string><string name="font_example">Abcdef</string><string-array name="days_of_week">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array><string-array name="calend_period">
+        <item>этот день</item>
+        <item>7 дней</item>
+        <item>30 дней</item>
+    </string-array><string name="font">Настройки шрифта</string><string name="show_highlighter">Подсвечивать дни недели</string><string name="action_settings">Настройки</string><string name="calend_settings">Настройки событий</string><string-array name="theme_values">
+        <item>Transparent</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Josephine</item>
+        <item>Contrast</item>
+        <item>Choco</item>
+    </string-array><string name="app_name">Fancy Calendar widget</string><string name="theme_type">Тема</string></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp"><dimen name="activity_horizontal_margin">64dp</dimen></file><file name="calendar_provider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml\calendar_provider.xml" qualifiers="" type="xml"/><file name="extended_calendar_provider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml\extended_calendar_provider.xml" qualifiers="" type="xml"/><file name="list_provider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml\list_provider.xml" qualifiers="" type="xml"/><file name="preferences" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml\preferences.xml" qualifiers="" type="xml"/><file name="small_calendar_provider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml\small_calendar_provider.xml" qualifiers="" type="xml"/><file name="calendar_provider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml-v17\calendar_provider.xml" qualifiers="v17" type="xml"/><file name="list_provider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml-v17\list_provider.xml" qualifiers="v17" type="xml"/><file name="small_calendar_provider" path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\main\res\xml-v17\small_calendar_provider.xml" qualifiers="v17" type="xml"/></source><source path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\build\generated\res\rs\debug"/><source path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\STUFF\FancyCalendar\FancyCalendarWidgetExtendedList\app\src\debug\res"/></dataSet><mergedItems/></merger>

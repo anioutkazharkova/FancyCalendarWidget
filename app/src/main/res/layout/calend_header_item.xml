@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="40dp"
+    android:orientation="vertical"
+    android:id="@+id/layout"    
+     >
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:id="@+id/startDate"
+        android:textAllCaps="true"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" >
+    </TextView>
+<ImageView   
+    android:id="@+id/divider"
+    android:layout_width="220dp"
+    android:layout_height="3dp"
+    ></ImageView>
+    
+
+</LinearLayout>

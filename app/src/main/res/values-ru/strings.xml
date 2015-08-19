@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fancy Calendar widget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="font">Настройки шрифта</string>
+    <string name="font_type">Шрифт</string>
+    <string name="background">Настройки темы</string>
+    <string name="theme_type">Тема</string>
+    <string name="font_example">Abcdef</string>
+    <string name="save">Сохранить</string>
+    <string name="show_highlighter">Подсвечивать дни недели</string>
+  <string name="calend_settings">Настройки событий</string>
+    <string name="show_events">Показывать события</string>
+    <string name="no_events">Нет событий</string>
+    <string-array name="calend_period">
+        <item>этот день</item>
+        <item>7 дней</item>
+        <item>30 дней</item>
+    </string-array>
+    <string-array name="monthes">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+
+    <string name="select_theme">Выберите тему</string>
+
+    <string-array name="theme_values">
+        <item>Transparent</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Josephine</item>
+        <item>Contrast</item>
+        <item>Choco</item>
+    </string-array>
+
+</resources>

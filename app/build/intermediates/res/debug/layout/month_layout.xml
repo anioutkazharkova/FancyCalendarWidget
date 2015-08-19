@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="210dip"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/table"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        >
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/STUFF/FancyCalendar/FancyCalendarWidgetExtendedList/app/src/main/res/layout/month_layout.xml -->

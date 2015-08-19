@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView                
+                android:id="@+id/tvMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_yellow"
+                android:textSize="17sp" >
+            </TextView>
+
+            <TextView              
+                android:id="@+id/tvYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/dark_yellow"
+                android:textSize="17sp" >
+            </TextView>
+
+</LinearLayout>
+<!-- From: file:/C:/STUFF/FancyCalendar/FancyCalendarWidgetExtendedList/app/src/main/res/layout/header_layout.xml -->

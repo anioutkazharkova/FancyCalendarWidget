@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.anioutkazharkova.calendar" android:versionCode="10"
+	android:versionName="1.4.4">
+
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+
+	<uses-permission android:name="android.permission.READ_CALENDAR" />
+	<uses-permission android:name="android.permission.WRITE_CALENDAR" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+	<application android:allowBackup="true"
+		android:hardwareAccelerated="true" android:icon="@drawable/icon"
+		android:label="@string/app_name" android:largeHeap="true"
+		android:theme="@style/AppTheme">
+		<receiver android:name="com.anioutkazharkova.calendar.CalendarWidget">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+				<action android:name="com.anioutkazharkova.calendar.UpdateTimeCalendar" />
+				<action android:name="com.anioutkazharkova.calendar.previousCalendar" />
+
+				<action android:name="com.anioutkazharkova.calendar.nextCalendar" />
+				<action android:name="android.intent.action.TIME_TICK" />
+				<action android:name="android.intent.action.DATE_CHANGED" />
+				<action android:name="android.intent.action.TIME_SET" />
+				<action android:name="android.intent.action.TIMEZONE_CHANGED" />
+			</intent-filter>
+
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/calendar_provider" />
+		</receiver>
+
+		<service android:name="com.anioutkazharkova.calendar.TimeUpdateService" android:enabled="true"/>
+
+
+		<activity android:name="ConfActivity" android:icon="@drawable/ic_action_settings"
+			android:label="@string/action_settings" />
+
+
+		<receiver android:name="com.anioutkazharkova.calendar.SmallCalendarWidget">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+				<action android:name="android.intent.action.DATE_CHANGED" />
+				<action android:name="android.intent.action.TIME_SET" />
+				<action android:name="android.intent.action.TIMEZONE_CHANGED" />
+				<action android:name="com.anioutkazharkova.calendar.previousSmallCalendar" />
+				<action android:name="com.anioutkazharkova.calendar.nextSmallCalendar" />
+				<action android:name="com.anioutkazharkova.calendar.small.current" />
+			</intent-filter>
+
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/small_calendar_provider" />
+		</receiver>
+	<receiver android:name="com.anioutkazharkova.calendar.ExtendedCalendarWidget">
+			<intent-filter>
+				<action android:name="android.intent.action.PROVIDER_CHANGED" />
+
+				<data android:scheme="content" />
+				<data android:host="com.android.calendar" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+				<action android:name="android.intent.action.DATE_CHANGED" />
+				<action android:name="android.intent.action.TIME_SET" />
+				<action android:name="android.intent.action.TIMEZONE_CHANGED" />
+				<action android:name="com.anioutkazharkova.calendar.dayExtended" />
+				<action android:name="com.anioutkazharkova.calendar.previousExtendedCalendar" />
+				<action android:name="com.anioutkazharkova.calendar.nextExtendedCalendar" />
+				<action android:name="com.anioutkazharkova.calendar.extended.current" />
+			</intent-filter>
+
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/extended_calendar_provider" />
+		</receiver>
+		<receiver android:name="ListWidgetProvider">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.TIME_TICK" />
+				<action android:name="android.intent.action.DATE_CHANGED" />
+				<action android:name="android.intent.action.TIME_SET" />
+				<action android:name="android.intent.action.TIMEZONE_CHANGED" />
+				<action android:name="com.anioutkazharkova.calendar.updatecalendar" />
+				<action android:name="com.anioutkazharkova.calendar.editcalendar" />
+				<action android:name="com.anioutkazharkova.calendar.addcalendar" />
+				<action android:name="com.anioutkazharkova.calendar.showcalendar" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.PROVIDER_CHANGED" />
+
+				<data android:scheme="content" />
+				<data android:host="com.android.calendar" />
+			</intent-filter>
+
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/list_provider" />
+		</receiver>
+
+		<service android:name=".ListWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:enabled="true"/>
+		<service android:enabled="true" android:name="TimeServiceExtended"></service>
+		<service android:name="ListTimeUpdateService" android:enabled="true"></service>
+	</application>
+
+</manifest>

@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="220dp"
+        android:layout_height="220dp"   
+    android:orientation="vertical" >
+ <RelativeLayout
+     android:id="@+id/commonLayout"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+             android:layout_width="220dp"
+              android:layout_height="wrap_content"
+        android:orientation="vertical"
+            >
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:background="@drawable/image_button_states"
+            android:id="@+id/btnPrev"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_previous_item" >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+            
+            <ImageView 
+                android:background="@drawable/image_button_states"
+                android:id="@+id/tvMonthYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                />
+<!-- 
+            <TextView                
+                android:id="@+id/tvMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_yellow"
+                android:textSize="16sp" >
+            </TextView>
+
+            <TextView              
+                android:id="@+id/tvYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/dark_yellow"
+                android:textSize="16sp" >
+            </TextView>-->
+           <!--  <ImageView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/imSettings"
+                android:layout_gravity="top"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_action_settings"
+                ></ImageView>-->
+        </LinearLayout>
+
+        <ImageView
+            android:background="@drawable/image_button_states"
+            android:id="@+id/btnNext"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_next_item" >
+        </ImageView>
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/divider"
+        android:layout_width="220dip"
+        android:layout_height="2dip"      
+        
+        />
+    
+    </LinearLayout>
+    <ImageView
+         android:layout_marginTop="32dp"
+        android:layout_width="220dip"
+        android:layout_height="25dp" 
+        android:id="@+id/layoutDays"
+               />
+    <ImageView 
+        android:layout_gravity="center_horizontal"       
+        android:id="@+id/calendarLayout"
+        android:layout_width="220dip"        
+        android:layout_height="wrap_content"        
+        android:scaleType="fitCenter" >
+    </ImageView>
+</RelativeLayout>
+</LinearLayout><!-- From: file:/C:/STUFF/FancyCalendar/FancyCalendarWidgetExtendedList/app/src/main/res/layout/activity_calendar.xml -->

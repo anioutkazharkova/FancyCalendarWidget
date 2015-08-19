@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fancy Calendar widget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="font">Font</string>
+    <string name="font_type">Font type</string>
+    <string name="background">Theme</string>
+    <string name="theme_type">Theme type</string>
+    <string name="font_example">Abcdef</string>
+    <string name="save">save</string>
+    <string name="show_highlighter">Highlight days of week</string>
+<string name="calend_settings">Events</string>
+    <string name="show_events">Show events for</string>
+    <string name="no_events">No events</string>
+    <string-array name="calend_period">
+        <item>this day</item>
+        <item>7 days</item>
+        <item>30 days</item>
+    </string-array>
+    <string-array name="monthes">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string name="select_theme">Select theme</string>
+
+    <string-array name="theme_values">
+        <item>Transparent</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Josephine</item>
+        <item>Contrast</item>
+        <item>Choco</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Gold</item>
+        <item>White</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string name="theme_default">Gold</string>
+
+</resources>

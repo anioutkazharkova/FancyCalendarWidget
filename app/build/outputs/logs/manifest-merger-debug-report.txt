@@ -1,0 +1,207 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:4:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:42
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:6:2
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:6:39
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:6:12
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_CALENDAR
+ADDED from AndroidManifest.xml:8:2
+	android:name
+		ADDED from AndroidManifest.xml:8:19
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from AndroidManifest.xml:9:2
+	android:name
+		ADDED from AndroidManifest.xml:9:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:10:2
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+application
+ADDED from AndroidManifest.xml:12:2
+	android:label
+		ADDED from AndroidManifest.xml:14:3
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:13:3
+	android:allowBackup
+		ADDED from AndroidManifest.xml:12:15
+	android:icon
+		ADDED from AndroidManifest.xml:13:38
+	android:largeHeap
+		ADDED from AndroidManifest.xml:14:36
+	android:theme
+		ADDED from AndroidManifest.xml:15:3
+receiver#com.anioutkazharkova.calendar.CalendarWidget
+ADDED from AndroidManifest.xml:16:3
+	android:name
+		ADDED from AndroidManifest.xml:16:13
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE+android.appwidget.action.APPWIDGET_UPDATE+android.intent.action.DATE_CHANGED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET+android.intent.action.TIME_TICK+com.anioutkazharkova.calendar.UpdateTimeCalendar+com.anioutkazharkova.calendar.nextCalendar+com.anioutkazharkova.calendar.previousCalendar
+ADDED from AndroidManifest.xml:17:4
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:13
+action#com.anioutkazharkova.calendar.UpdateTimeCalendar
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+action#com.anioutkazharkova.calendar.previousCalendar
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:13
+action#com.anioutkazharkova.calendar.nextCalendar
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:13
+action#android.intent.action.TIME_TICK
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:13
+action#android.intent.action.DATE_CHANGED
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:13
+action#android.intent.action.TIME_SET
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:13
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:13
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:30:4
+	android:resource
+		ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:30:15
+service#com.anioutkazharkova.calendar.TimeUpdateService
+ADDED from AndroidManifest.xml:34:3
+	android:enabled
+		ADDED from AndroidManifest.xml:34:75
+	android:name
+		ADDED from AndroidManifest.xml:34:12
+activity#com.anioutkazharkova.calendar.ConfActivity
+ADDED from AndroidManifest.xml:37:3
+	android:label
+		ADDED from AndroidManifest.xml:38:4
+	android:icon
+		ADDED from AndroidManifest.xml:37:41
+	android:name
+		ADDED from AndroidManifest.xml:37:13
+receiver#com.anioutkazharkova.calendar.SmallCalendarWidget
+ADDED from AndroidManifest.xml:41:3
+	android:name
+		ADDED from AndroidManifest.xml:41:13
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE+android.appwidget.action.APPWIDGET_UPDATE+android.intent.action.DATE_CHANGED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET+com.anioutkazharkova.calendar.nextSmallCalendar+com.anioutkazharkova.calendar.previousSmallCalendar+com.anioutkazharkova.calendar.small.current
+ADDED from AndroidManifest.xml:42:4
+action#com.anioutkazharkova.calendar.previousSmallCalendar
+ADDED from AndroidManifest.xml:48:5
+	android:name
+		ADDED from AndroidManifest.xml:48:13
+action#com.anioutkazharkova.calendar.nextSmallCalendar
+ADDED from AndroidManifest.xml:49:5
+	android:name
+		ADDED from AndroidManifest.xml:49:13
+action#com.anioutkazharkova.calendar.small.current
+ADDED from AndroidManifest.xml:50:5
+	android:name
+		ADDED from AndroidManifest.xml:50:13
+receiver#com.anioutkazharkova.calendar.ExtendedCalendarWidget
+ADDED from AndroidManifest.xml:56:2
+	android:name
+		ADDED from AndroidManifest.xml:56:12
+intent-filter#android.intent.action.PROVIDER_CHANGED
+ADDED from AndroidManifest.xml:57:4
+action#android.intent.action.PROVIDER_CHANGED
+ADDED from AndroidManifest.xml:58:5
+	android:name
+		ADDED from AndroidManifest.xml:58:13
+data
+ADDED from AndroidManifest.xml:60:5
+	android:scheme
+		ADDED from AndroidManifest.xml:60:11
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE+android.appwidget.action.APPWIDGET_UPDATE+android.intent.action.DATE_CHANGED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET+com.anioutkazharkova.calendar.dayExtended+com.anioutkazharkova.calendar.extended.current+com.anioutkazharkova.calendar.nextExtendedCalendar+com.anioutkazharkova.calendar.previousExtendedCalendar
+ADDED from AndroidManifest.xml:63:4
+action#com.anioutkazharkova.calendar.dayExtended
+ADDED from AndroidManifest.xml:69:5
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+action#com.anioutkazharkova.calendar.previousExtendedCalendar
+ADDED from AndroidManifest.xml:70:5
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+action#com.anioutkazharkova.calendar.nextExtendedCalendar
+ADDED from AndroidManifest.xml:71:5
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+action#com.anioutkazharkova.calendar.extended.current
+ADDED from AndroidManifest.xml:72:5
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+receiver#com.anioutkazharkova.calendar.ListWidgetProvider
+ADDED from AndroidManifest.xml:78:3
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE+android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:79:4
+intent-filter#android.intent.action.DATE_CHANGED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET+android.intent.action.TIME_TICK+com.anioutkazharkova.calendar.addcalendar+com.anioutkazharkova.calendar.editcalendar+com.anioutkazharkova.calendar.showcalendar+com.anioutkazharkova.calendar.updatecalendar
+ADDED from AndroidManifest.xml:83:4
+action#com.anioutkazharkova.calendar.updatecalendar
+ADDED from AndroidManifest.xml:88:5
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+action#com.anioutkazharkova.calendar.editcalendar
+ADDED from AndroidManifest.xml:89:5
+	android:name
+		ADDED from AndroidManifest.xml:89:13
+action#com.anioutkazharkova.calendar.addcalendar
+ADDED from AndroidManifest.xml:90:5
+	android:name
+		ADDED from AndroidManifest.xml:90:13
+action#com.anioutkazharkova.calendar.showcalendar
+ADDED from AndroidManifest.xml:91:5
+	android:name
+		ADDED from AndroidManifest.xml:91:13
+service#com.anioutkazharkova.calendar.ListWidgetService
+ADDED from AndroidManifest.xml:104:3
+	android:enabled
+		ADDED from AndroidManifest.xml:104:103
+	android:permission
+		ADDED from AndroidManifest.xml:104:46
+	android:name
+		ADDED from AndroidManifest.xml:104:12
+service#com.anioutkazharkova.calendar.TimeServiceExtended
+ADDED from AndroidManifest.xml:105:3
+	android:enabled
+		ADDED from AndroidManifest.xml:105:12
+	android:name
+		ADDED from AndroidManifest.xml:105:35
+service#com.anioutkazharkova.calendar.ListTimeUpdateService
+ADDED from AndroidManifest.xml:106:3
+	android:enabled
+		ADDED from AndroidManifest.xml:106:49
+	android:name
+		ADDED from AndroidManifest.xml:106:12
